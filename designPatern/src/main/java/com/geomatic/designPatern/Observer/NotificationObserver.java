@@ -1,8 +1,9 @@
-package Observer;
+package com.geomatic.designPatern.Observer;
 
-import domain.Notification;
+import com.geomatic.designPatern.enums.NotificationType;
 
 public interface NotificationObserver {
 
-    void upadte(Notification notification);
+
+    void update(String message, NotificationType type);
 }
